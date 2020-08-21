@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Basics of HTML demo</title>
-    <link rel="text/stylesheet" href="styles.css">
-  </head>
-  
-  <body>
-    <p>Secret value is <b>4235551</b></p>
-    <p>You can solve the problem yourself at <a href="http://www.codeabbey.com/index/task_view/basics-of-html">CodeAbbey</a>.
-    <script src="main.js"></script>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="css/normalize.css/">
+  <link type="text/css" rel="stylesheet" href="scss/styles.css">
+  <title>😋YouTube</title>
+</head>
+<body>
+  <navbar class="navbar">
+    <div class="left icon-container">
+      <i class="fa fa-bars"></i>
+      <i class="fa fa-youtube"></i>
+      <span class="youtube-text">YouTube</span>
+    </div>
+    <div class="mid icon-container">
+      <input type="text" class="search-bar" value="Search">
+      <button class="btn search-btn"></button>
+      <i class="fa fa-search"></i>
+    </div>
+    <div class="right icon-container">
+      <i class="fa fa-video"></i>
+      <i class="fa fa-th"></i>
+      <i class="fa fa-bell"></i>
+      <button class="btn profile-pic"></button>
+    </div>
+  </navbar>
+  <script src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/ed0f1d3a9f.js" crossorigin="anonymous"></script>
+</body>
 </html>

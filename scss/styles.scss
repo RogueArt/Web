@@ -1,0 +1,39 @@
+$text-color: #C1C1C1;
+$background: #212121;
+
+body {
+  text-align: center;
+  color: $text-color;
+  background: $background;
+  margin: 0px;
+
+  .navbar {
+    display: flex;
+    background: red;
+    width: 100%;
+    align-items: center;
+
+    .left {
+      background: black;
+      justify-content: start;
+
+      .fa-bars {
+        margin-left: 1rem;
+      }
+
+      .fa-youtube {
+        margin-left: 1rem;
+      }
+    }
+
+    .mid {
+      background: green;
+      flex-grow: 5;
+    }
+
+    .right {
+
+      background: blue;
+    }
+  }
+}

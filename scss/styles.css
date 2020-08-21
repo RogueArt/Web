@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  color: #C1C1C1;
+  background: #212121;
+  margin: 0px;
+}
+
+body .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: red;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .navbar .left {
+  background: black;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+body .navbar .left .fa-bars {
+  margin-left: 1rem;
+}
+
+body .navbar .left .fa-youtube {
+  margin-left: 1rem;
+}
+
+body .navbar .mid {
+  background: green;
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+}
+
+body .navbar .right {
+  background: blue;
+}
+/*# sourceMappingURL=styles.css.map */
